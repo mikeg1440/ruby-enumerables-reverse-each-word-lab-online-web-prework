@@ -22,6 +22,7 @@ end
 
 def reverse_each_word(sentence)
 
+<<<<<<< HEAD
   new_sentence = []
 
   sentence.split(" ").collect do |word|
@@ -36,3 +37,12 @@ end
 
 
 #reverse_each_word("Reverse Each Word Function")
+=======
+  sentence.split(" ").collect do |word|
+    puts word.split("")
+  end
+end
+
+
+reverse_each_word("Reverse Each Word Function")
+>>>>>>> 1fd3a0ad8ded884b969f57313fcd27f49a7a6b8c
